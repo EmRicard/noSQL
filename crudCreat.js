@@ -1,4 +1,5 @@
-const { Cliente } = require('./cliente.js');
+// const { Cliente } = require('./cliente.js');
+import  Cliente  from "./cliente.js";
 
 
 async function adicionarCliente(nome, cpf) {
@@ -25,4 +26,4 @@ async function adicionarCliente(nome, cpf) {
     }
 }
 
-module.exports = { adicionarCliente };
+export default adicionarCliente ;

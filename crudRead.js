@@ -1,4 +1,4 @@
-import { Cliente } from './cliente.js';
+import  Cliente  from "./cliente.js";
 
 async function listarClientes() {
     try {
@@ -25,4 +25,4 @@ async function listarClientesPorId(id) {
     }
 }
 
-export default { listarClientes, listarClientesPorId };
+export { listarClientes, listarClientesPorId };
